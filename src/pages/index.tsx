@@ -24,14 +24,14 @@ export default function Home() {
           imagesBaseUrl='/white-cream'
           imageFilenamePrefix='white-cream_'
           imagesCount={35}
-          imagesFiletype='png'
+          imagesFiletype='webp'
           mouseDragSpeed={20}
           width={1000}
           height={1000}
           showRotationIconOnStartup
         />
         <ReactPhotoSphereViewer
-          src='/test1.jpg'
+          src='/test1.webp'
           height={'50vh'}
           width={'50%'}
         />
